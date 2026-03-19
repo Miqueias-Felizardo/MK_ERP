@@ -13,13 +13,11 @@ async function iniciarServidor() {
     await sequelize.authenticate();
     console.log('PostgreSQL conectado!');
 
-    await sequelize.sync({ alter: true });
-    console.log('Tabelas sincronizadas!');
-
     const PORT = process.env.PORT || 3000;
     app.listen(PORT, () => {
       console.log(`Servidor rodando na porta ${PORT}`);
     });
+
   } catch (erro) {
     console.error('Erro ao conectar no banco:', erro);
     process.exit(1);
