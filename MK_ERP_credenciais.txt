@@ -1,0 +1,38 @@
+===================================================
+  MK_ERP — CREDENCIAIS DO AMBIENTE DE DESENVOLVIMENTO
+===================================================
+
+⚠ ATENÇÃO: Nunca compartilhe este arquivo publicamente.
+   Não suba este arquivo para o GitHub.
+
+---------------------------------------------------
+POSTGRESQL
+---------------------------------------------------
+Host:     localhost
+Porta:    5432
+Banco:    mk_erp
+Usuário:  postgres
+Senha:    <1M16J7rU%tI
+
+---------------------------------------------------
+SERVIDOR NODE.JS
+---------------------------------------------------
+Porta:    3000
+Arquivo:  Backend/Server.js
+
+---------------------------------------------------
+GITHUB
+---------------------------------------------------
+Repositório: https://github.com/Miqueias-Felizardo/MK_ERP.git
+
+---------------------------------------------------
+CONTEÚDO DO ARQUIVO .env
+---------------------------------------------------
+PORT=3000
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=mk_erp
+DB_USER=postgres
+DB_PASS=<1M16J7rU%tI
+
+===================================================
